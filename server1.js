@@ -7,9 +7,9 @@ const myserver = http.createServer((req, res) => {
     if (err) {
       console.error(err);
       res.statusCode = 404;
-      res.end("file not found");
+      res.end("file not found");   
       
-    }
+    } 
     else {
       console.log("i am a server")
       res.writeHead(200, { "Content-type": "text/html" });
