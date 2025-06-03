@@ -2,7 +2,7 @@ const http = require("http");
 const fs = require("fs");
 const PORT = 4050;
 
-try {
+
   const myServer = http.createServer((req, res) => {
     
 
@@ -37,7 +37,3 @@ try {
   myServer.listen(PORT, () => {
     console.log(`server in listening at port ${PORT}`)
   })
-} catch (error) {
-  console.log(`the error is ${error}`)
-  
-}
