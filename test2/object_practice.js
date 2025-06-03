@@ -54,6 +54,7 @@ emitter.on("ultimate", () => {
   let basic_monthly_plan = parseFloat(services.ultimate.monthlyCharge);
   console.log(
     `incase of Yearly planing you have to pay ${YearlyPlan(basic_monthly_plan).toFixed(2)}`
+    // hello 
   );
 });
 
